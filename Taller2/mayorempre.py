@@ -1,0 +1,10 @@
+def empre_maxi(nom_em,sitio_em,des_em,año_em,idu_em,num_em):
+    x=max(num_em)
+    i=num_em.index(x)
+    print(f'Empresa con mayor # de empleados es: ')
+    print(f'-Empresa: {nom_em[i]} ')
+    print(f'-Website: {sitio_em[i]}')
+    print(f'-Descrición: {des_em[i]}' )
+    print(f'-Fundación: {año_em[i]} ')
+    print(f'-Industria: {idu_em[i]} ')
+    print(f'-#Empleados: {num_em[i]} \n')
